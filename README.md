@@ -1,5 +1,5 @@
 # Ex. No: 9 - Packet Tracer: Subnet an IPv4 Network
-# Date: ___________
+# Date: 26/02/2026
 ________________________________________ <br>
 # Objective
 Design, configure, and verify an IPv4 subnetting scheme in Cisco Packet Tracer.<br>
@@ -20,7 +20,8 @@ ________________________________________
 •	Serial DCE/DTE cable for WAN link<br>
 ________________________________________<br>
 # Network Topology Diagram
-(Insert your Packet Tracer screenshot showing CustomerRouter → LAN-A Switch → PC-A, CustomerRouter → LAN-B Switch → PC-B, and ISP side with Router, Switch, Workstation, Server, and Serial link.)<br>
+(Insert your Packet Tracer screenshot showing CustomerRouter → LAN-A Switch → PC-A, CustomerRouter → LAN-B Switch → PC-B, and ISP side with Router, Switch, Workstation, Server, and Serial link.)<br>![a5bd8df9-2593-4b54-825d-e22598aff589](https://github.com/user-attachments/assets/7e652245-a1aa-4d77-9b0c-b8649b0d0fe1)
+
 ________________________________________<br>
 # Addressing Table
 Device	Interface	IP Address	Subnet Mask	Default Gateway<br>
@@ -93,10 +94,12 @@ ________________________________________<br>
 •	Save: copy running-config startup-config<br>
 ________________________________________<br>
 # Output (Attach Screenshots)
-•	show ip interface brief on CustomerRouter<br>
-•	show ip route<br>
-•	Successful pings: PC-A → PC-B, PC-A → ISP Server<br>
+•	show ip interface brief on CustomerRouter<br>![e399b457-2c2f-4fe6-9fe8-eddc5ae20463](https://github.com/user-attachments/assets/7ea3d198-08a9-48c4-9e67-0b6289643488)
+
+•	show ip route<br>![eff4e7c3-4e33-4a32-8c8a-9db51f7980ce](https://github.com/user-attachments/assets/673442bc-4709-4a76-b425-606c5b02ee5b)
+
+•	Successful pings: PC-A → PC-B, PC-A → ISP Server<br>![d5f85b2b-f273-4ce8-a5a9-3c309b40f7da](https://github.com/user-attachments/assets/e8e381e3-4ea0-48f4-bb4c-1e16dbf5f326)
+
 ________________________________________<br>
 # Result
 The IPv4 subnetting scheme was successfully designed and implemented. Router, switches, and PCs were configured with correct addressing. Connectivity within LANs, across subnets, and to ISP devices was verified using ping and show commands.<br>
-
